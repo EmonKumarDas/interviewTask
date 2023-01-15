@@ -4,7 +4,7 @@ import UserData from './UserData';
 const RightSideBar = ({ setPersonDetails }) => {
     let [person, setPerson] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:5000/get")
+        fetch("https://server-nine-topaz.vercel.app/get")
             .then(res => res.json())
             .then(result => setPerson(result))
     }, [])

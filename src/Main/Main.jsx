@@ -11,7 +11,7 @@ const Main = () => {
     return (
         <div className=''>
             <Navbar></Navbar>
-            <div className='grid grid-cols-8'>
+            <div className='grid lg:grid-cols-8'>
                 <div className='col-span-1 h-[90vh]'><LeftSidebar></LeftSidebar></div>
                 <div className='col-span-5'><Home personDetails={personDetails}></Home></div>
                 <div className='col-span-2 h-[90vh]'><RightSideBar setPersonDetails={setPersonDetails}></RightSideBar></div>
