@@ -9,7 +9,7 @@ const RightSideBar = ({ setPersonDetails }) => {
             .then(result => setPerson(result))
     }, [])
     return (
-        <div className="flex flex-col h-full p-3 overflow-y-auto dark:bg-gray-900 dark:text-gray-100">
+        <div className="flex flex-col h-full lg:mx-0 mx-16 my-2 p-3 overflow-y-auto dark:bg-gray-900 dark:text-gray-100">
             <div className="space-y-3">
                 <div className="flex items-center justify-between dark:bg-gray-900">
                     <h2>Events</h2>
